@@ -1,0 +1,44 @@
+criar uma solução para um mini MVPN sobre controle de insvestimento
+
+# Estrutura:
+
+A. Mercado de capitais
+ - acções
+ - títulos
+
+B. Fundos de investimento
+ - fundos
+
+C. Corretores (Brokers)
+ - Corretores internacionais
+ - Corretores nacionais
+
+D. Renda fixa e depósitos bancários
+
+E. Criptomoedas
+
+F. Bens móveis e outros ativos físicos
+
+G. Outros investimentos
+
+# Funcionalidades que a plataforma deve ter
+Eu organizaria o software nos seguintes módulos:
+
+Módulo        -    Funcionalidades
+Dashboard     -   Visão global do património
+Activos       -   Registo e gestão de investimentos
+Instituições  -   Bancos, brokers e exchanges
+Transacções   -   Compras, vendas, depósitos e levantamentos
+Rendimentos   -   Juros, dividendos e outros rendimentos
+Avaliação     -   Valorização e desvalorização dos activos
+Relatórios    -   Rentabilidade, evolução e composição
+Calendário    -   Vencimentos, cupões e pagamentos
+Documentos    -   Contratos, comprovativos e extractos
+Alertas       -   Notificações e lembretes
+Configurações -   Moedas, categorias e preferências
+
+# Estrutura técnica e arquitectura:
+
+frontend - angular
+backend  - nestJS
+database - PostgreSQL
